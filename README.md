@@ -2,7 +2,7 @@
 
 Prisma and Vercel's integration using the API folder configuration. This works without any configuration.
 
-## How to run this locally
+## How to run this locally and deploy
 
 ### Vercel authentication
 
@@ -22,6 +22,14 @@ The environment variable `DATABASE_URL_P2_VERCEL_TEST` should point to a postgre
 
 Please check our internal 1Password E2E vault for a ready-to-use environment variable or  
 set up your own database and set the environment variable accordingly.
+
+### Local Run
+
+Create `.env`, `.env.build`, `prisma.env` with
+
+`DATABASE_URL_P2_VERCEL_TEST=<value>`
+
+Run `vercel dev`
 
 ### Deploy
 
