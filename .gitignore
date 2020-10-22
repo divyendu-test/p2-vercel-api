@@ -1,0 +1,5 @@
+.vercel
+.env
+.env.build
+prisma/.env
+node_modules

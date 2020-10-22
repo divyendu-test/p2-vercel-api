@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "env": {
+    "DATABASE_URL_P2_VERCEL_TEST": "@database_url_p2_vercel_test"
+  },
+  "build": {
+    "env": {
+      "DATABASE_URL_P2_VERCEL_TEST": "@database_url_p2_vercel_test"
+    }
+  }
+}
